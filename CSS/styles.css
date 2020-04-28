@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #66bfbf;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+  list-style: none;
+}
+
+li::before {
+  content: "\25a0";
+  color: #66bfbf;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+hr {
+  width: 10%;
+  color: #eaf6f6;
+  border-style: dotted;
+  border-width: 7.5px 0 0 0;
+  margin: 50px auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  margin-top: 0;
+}
+
+.title-p {
+  margin: 15px auto auto auto;
+}
+
+.top-container {
+  padding: 100px 0 0 0;
+  background-color: #eaf6f6;
+  margin: 0;
+  position: relative;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.phish-logo {
+  background-color: black;
+  width: 25%;
+  border-radius: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.prof-pic {
+  margin-top: 40px;
+  border: solid black;
+  border-radius: 50%;
+}
+
+.skill-row {
+  width: 60%;
+  margin: 30px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.trey {
+  border-radius: 20%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile-text {
+  width: 40%;
+  margin: 20px auto;
+  color: #40514e;
+}
+
+.contact-me {
+  width: 50%;
+  margin: auto;
+}
+
+.contact-btn {
+  margin: 30px auto 50px auto;
+  box-shadow: 0px 1px 0px 0px #11999e;
+  background-color: #66bfbf;
+  border-radius: 6px;
+  border: 1px solid #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 19px;
+  padding: 11px 24px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #5b6178;
+}
+.contact-btn:hover {
+  background-color: #11999e;
+}
+.contact-btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.footer-link {
+  margin: 15px;
+  margin-top: 30px;
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bottom-container p {
+  font-size: 10px;
+  color: #eaf6f6;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
