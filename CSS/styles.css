@@ -2,6 +2,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: "Merriweather", serif;
+  color: #40515e;
 }
 
 h1 {
@@ -38,10 +39,10 @@ li::before {
 }
 
 hr {
-  width: 10%;
+  width: 4%;
   color: #eaf6f6;
-  border-style: dotted;
-  border-width: 7.5px 0 0 0;
+  border: dotted 7px;
+  border-width: 7px 0 0 0;
   margin: 50px auto;
 }
 
@@ -66,7 +67,7 @@ a {
 
 .bottom-container {
   background-color: #66bfbf;
-  padding: 20px;
+  padding: 50px 0 20px;
 }
 
 .pro {
@@ -76,12 +77,12 @@ a {
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 
@@ -148,8 +149,7 @@ a {
 }
 
 .footer-link {
-  margin: 15px;
-  margin-top: 30px;
+  margin: 25px;
   color: #11999e;
   font-family: "Montserrat", sans-serif;
 }
@@ -161,4 +161,13 @@ a {
 
 a:hover {
   color: #eaf6f6;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.copyright {
+  margin-top: 45px;
 }
